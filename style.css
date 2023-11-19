@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(230, 249, 255);
+    font-family: 'Courier New', monospace;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 30px;
+    padding: 50px;
+    border: 2px solid rgb(23, 84, 104);
+    background-color: lightblue;
+    border-radius: 15px;
+}
+
+input {
+    font-size: 40px;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+}
+
+button {
+    font-size: 20px;
+    background: rgb(60, 162, 196);
+    width: 80%;
+    border-radius: 15px;
+    border: 2px solid rgb(23, 84, 104);
+    padding: 15px;
+    cursor: pointer;
+}
+
+p {
+ font-size: 20px;
+ font-weight: bold;
+}
